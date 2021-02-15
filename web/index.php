@@ -48,6 +48,11 @@ print '</form>';
 }
 catch(Exception $e)
 {
+  print '<form method="post" action="#" class="confirm-form">';
+  print '<a href="AddList.html" class="addlist-jump-button"><span>リスト追加</span></a>';
+  print '<input type="submit" name="delete" class="complete-submit" value="完了">';
+  print '</form>';
+  
 }
 
 if(isset($_POST['delete'])==true)
