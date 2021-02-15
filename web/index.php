@@ -48,8 +48,6 @@ print '</form>';
 }
 catch(Exception $e)
 {
-  print 'ただいま障害により大変ご迷惑をお掛けしています。';
-  exit();
 }
 
 if(isset($_POST['delete'])==true)
