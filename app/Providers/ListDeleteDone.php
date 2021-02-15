@@ -31,7 +31,7 @@ catch (Exception $e)
   exit();
 }
 
-header('Location: List.php');
+header('Location: index.php');
 ?>
 </body>
 </html>
