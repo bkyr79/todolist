@@ -2,9 +2,9 @@
 
 $list_name = $_POST['name'];
 
-$dsn = 'mysql:dbname=todolist;host=localhost;charset=utf8';
-$user = 'root';
-$password ='';
+$dsn = 'mysql:dbname=heroku_395f170cc9d8e84;host=us-cdbr-east-03.cleardb.com;charset=utf8';
+$user = 'b8f8ba0e6dce8b';
+$password ='64d39a57';
 
 try {
   $db = new PDO($dsn,$user,$password);
@@ -26,3 +26,5 @@ try {
 }
 
 ?>
+
+<!-- PDO('mysql:dbname=heroku_395f170cc9d8e84;host=us-cdbr-east-03.cleardb.com;charset=utf8','b8f8ba0e6dce8b','64d39a57') -->

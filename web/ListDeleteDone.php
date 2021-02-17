@@ -12,9 +12,9 @@ try
 
 $li_code = $_POST['code'];
 
-$dsn = 'mysql:dbname=todolist;host=localhost;charset=utf8';
-$user='root';
-$password ='';
+$dsn = 'mysql:dbname=heroku_395f170cc9d8e84;host=us-cdbr-east-03.cleardb.com;charset=utf8';
+$user = 'b8f8ba0e6dce8b';
+$password ='64d39a57';
 $dbh = new PDO($dsn,$user,$password);
 $dbh->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
