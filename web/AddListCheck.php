@@ -26,5 +26,3 @@ try {
 }
 
 ?>
-
-<!-- PDO('mysql:dbname=heroku_395f170cc9d8e84;host=us-cdbr-east-03.cleardb.com;charset=utf8','b8f8ba0e6dce8b','64d39a57') -->
