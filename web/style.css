@@ -10,7 +10,6 @@ body{
   left: 48px;
   width: 277px;
   height: 305px;
-  background: #FFFF66;
 }
 
 .center-of-content{
@@ -35,7 +34,7 @@ body{
   box-sizing: border-box;
   border-radius: 20px;
   position: absolute;
-  top: 290px;
+  top: 160px;
   left: 170px;
 }
 
@@ -51,7 +50,7 @@ body{
   float: left;
   margin-top: 10px; 
   position: absolute;
-  top: 290px;
+  top: 160px;
   left: 1px;
   text-decoration: none;
 }
@@ -88,7 +87,7 @@ body{
   float: left;
   margin-top: 10px; 
   position: absolute;
-  top: 530px;
+  top: 400px;
   left: 38px;
   text-decoration: none;
 }
@@ -112,7 +111,7 @@ body{
   box-sizing: border-box;
   border-radius: 20px;
   position: absolute;
-  top: 530px;
+  top: 400px;
   left: 223px;
 }
 
